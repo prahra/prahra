@@ -1,0 +1,78 @@
+body {
+	min-width: 864px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+a {
+	color: #08C;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #058;
+	text-decoration: none;
+}
+
+
+div#content {
+	margin: 20px auto 200px;
+	display: block;
+	width: 500px;
+}
+
+div#content p.strong {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 140%;
+	color: #444;
+	font-family: 'Marck Script', cursive;
+}
+
+div#content p {
+	font-size: 120%;
+	text-align: justify;
+	font-family: 'Milonga', cursive;
+}
+
+
+img {
+	margin-top: 20px;
+}
+
+span#skritkove {
+	margin-top: 20px;
+	display: inline-block;
+	width: 478px;
+	height: 680px;
+	background-image: url(../img/skritkove-grey.png);
+}
+span#skritkove:hover {
+	background-image: url(../img/skritkove.png);
+}
+
+
+span.oznameni {
+	display: inline-block;
+	height: 200px;
+	margin: 0px 30px;
+}
+
+span.vel1 {
+	background-image: url(../img/svatba/oznameni1_small.png);
+	width: 200px;
+}
+
+span.vel6 {
+	background-image: url(../img/svatba/oznameni6_small.png);
+	width: 134px;
+}
+
+#mailto {
+	margin-top: 10px;
+	display: inline-block;
+	width: 365px;
+	height: 40px;
+	background-image: url(../img/mailto.png);
+	vertical-align: top;
+}
